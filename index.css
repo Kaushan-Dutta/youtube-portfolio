@@ -1,0 +1,180 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.portfolio .nav{
+    background-color: rgb(44, 44, 184);
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    font-family: 'Raleway', sans-serif;
+  
+}
+.portfolio .nav .links ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 500px;
+}
+.portfolio .nav .links ul li{
+    list-style-type: none;
+    font-family: 'Raleway', sans-serif;
+}
+.portfolio .nav .links ul li a:hover{
+    text-decoration: underline;
+}
+.portfolio .nav .links ul li a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+}
+.portfolio .profile{
+    margin: 40px;
+    padding: 30px;
+}
+.portfolio .profile .heading{
+ display: flex;
+ align-items: center;
+ width: 100%;
+ justify-content: space-around;
+    
+}
+.portfolio .profile .heading .profile-photo img{
+    width: 300px;
+    width: 300px;
+    border-radius: 50%;
+    border: 2px solid grey;
+    box-shadow: 2px 2px 5px grey;
+}
+.profile .heading .know-me p:nth-child(3){
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    position: relative;
+    top: -70px;
+
+
+}
+.profile .about{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+.profile .about .button{
+    display: flex;
+    flex-direction: row;
+    
+    margin: auto;
+    justify-content: space-around;
+    width: 550px;
+    
+    
+}
+.profile .about .button button{
+    background-color: rgb(38, 38, 82);
+    width: 70px;
+    border-radius: 5px;
+    color: whitesmoke;
+    padding: 5px 10px;
+    cursor: pointer;
+    border: none;
+
+}
+.profile .about p{
+    line-height: 30px;
+}
+.profile .about .hContent {
+    display: none;
+}
+.profile .about .button button:hover{
+    background-color: rgb(38, 87, 76);
+}
+.profile .about h1{
+    margin: auto;
+    border-bottom: 2px solid black;
+    width: 200px;
+    font-family: 'Montserrat', sans-serif;
+}
+.profile .project{
+    text-align: center;
+    margin:30px;
+
+}
+.profile .project img{
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+    transition: 2s ease-out;
+    cursor: pointer;
+    
+}
+.profile .project img:hover{
+    transform: scale(1.08);
+}
+.profile .project .box{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.profile .project .box .item{
+    margin: 20px;
+    width: 300px;
+    padding: 20px 10px;
+    font-family: 'Montserrat', sans-serif;
+   
+    box-shadow: 2px 2px 5px grey;
+}
+.profile .project .box .item p:nth-child(3){
+font-size: medium;
+font-weight: bolder;
+}
+.profile .project h1{
+    margin: auto;
+    border-bottom: 2px solid black;
+    width: 250px;
+    font-family: 'Montserrat', sans-serif;
+}
+.footer {
+    background-color:rgb(44, 44, 184) ;
+    width: 100%;
+    text-align: center;
+    color: whitesmoke;
+    padding: 20px 0px;
+}
+.footer  ul li{
+    list-style-type: none;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    border: 2px solid white;
+    border-radius: 50%;
+    padding: 5px;
+    line-height: 40px;
+    text-align: center;
+
+}
+.footer ul{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    justify-content: space-around;
+    width: 300px;
+    position: relative;
+    left: -15px;
+}
+.footer ul li a{
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 25px;
+    
+}
+.footer ul li a:hover{
+    color: aquamarine;
+}
+.footer{
+    font-family: 'Montserrat', sans-serif;
+    overflow: hidden;
+}
